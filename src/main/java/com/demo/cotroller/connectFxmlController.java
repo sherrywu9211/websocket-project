@@ -1,6 +1,12 @@
 package com.demo.cotroller;
 
-public class connectFxmlController {
+import org.springframework.stereotype.Controller;
 
+@Controller
+public class ConnectFxmlController  {
+
+    public String sendMessage(String message) {
+        return "";
+    }
 
 }
