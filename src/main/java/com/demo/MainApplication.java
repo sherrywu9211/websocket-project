@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.sql.SQLOutput;
 
 @SpringBootApplication
-public class WebsocketProjectApplication {
+public class MainApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WebsocketProjectApplication.class, args);
+		SpringApplication.run(MainApplication.class, args);
 		System.out.println("-------B專案啟動-------");
 	}
 

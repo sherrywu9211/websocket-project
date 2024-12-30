@@ -1,14 +1,12 @@
-package com.demo.service;
+package com.demo.cotroller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.stereotype.Service;
 import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;
 import org.springframework.web.socket.handler.TextWebSocketHandler;
 
 @Controller
 public class WebsocketController extends TextWebSocketHandler {
-
 
     @Override
     public void afterConnectionEstablished(WebSocketSession session) throws Exception {

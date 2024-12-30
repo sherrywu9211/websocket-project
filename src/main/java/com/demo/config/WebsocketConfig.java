@@ -1,6 +1,6 @@
 package com.demo.config;
 
-import com.demo.service.WebsocketController;
+import com.demo.cotroller.WebsocketController;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.config.annotation.*;
 
