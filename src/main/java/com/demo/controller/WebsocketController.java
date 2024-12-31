@@ -1,4 +1,4 @@
-package com.demo.cotroller;
+package com.demo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.socket.TextMessage;
